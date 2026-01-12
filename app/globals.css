@@ -16,7 +16,8 @@
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.94 0.002 240);
   --muted-foreground: oklch(0.45 0 0);
-  --accent: oklch(0.55 0.15 160);
+  /* Changed accent color from green (160) to purple #6100FF */
+  --accent: oklch(0.5 0.25 285);
   --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.577 0.245 27.325);
@@ -52,8 +53,9 @@
   --secondary-foreground: oklch(0.95 0 0);
   --muted: oklch(0.22 0 0);
   --muted-foreground: oklch(0.65 0 0);
-  --accent: oklch(0.65 0.15 160);
-  --accent-foreground: oklch(0.1 0 0);
+  /* Changed accent color to purple #6100FF in dark mode */
+  --accent: oklch(0.55 0.25 285);
+  --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.396 0.141 25.723);
   --destructive-foreground: oklch(0.637 0.237 25.331);
   --border: oklch(0.22 0 0);
@@ -75,7 +77,8 @@
 }
 
 @theme inline {
-  --font-sans: "Inter", "Inter Fallback";
+  /* Changed font from Inter to Urbanist */
+  --font-sans: "Urbanist", "Urbanist Fallback";
   --font-mono: "Geist Mono", "Geist Mono Fallback";
   --color-background: var(--background);
   --color-foreground: var(--foreground);

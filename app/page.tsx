@@ -9,10 +9,12 @@ import { Testimonials } from "@/components/testimonials"
 import { FAQ } from "@/components/faq"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
+import { CursorGlow } from "@/components/cursor-glow"
 
 export default function Home() {
   return (
     <main className="min-h-screen">
+      <CursorGlow />
       <Header />
       <Hero />
       <ValueProps />

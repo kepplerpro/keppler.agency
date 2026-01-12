@@ -191,7 +191,11 @@ export const translations = {
       title: "Let's Build Something Great",
       subtitle: "Ready to start your project? Get in touch and we'll respond within 24-48 hours.",
       whatsapp: "Chat on WhatsApp",
+      whatsappDesc: "Quick responses, real-time conversation",
+      chatNow: "Chat now",
       email: "Send an Email",
+      sendEmail: "Send email",
+      response: "We respond within 24-48 hours",
       form: {
         name: "Your Name",
         email: "Your Email",
@@ -201,7 +205,6 @@ export const translations = {
         emailPlaceholder: "john@example.com",
         messagePlaceholder: "Tell us about your project...",
       },
-      response: "We respond within 24-48 hours",
     },
     footer: {
       description: "Professional web design & development services.",
@@ -408,7 +411,11 @@ export const translations = {
       title: "Construyamos Algo Grandioso",
       subtitle: "¿Listo para comenzar tu proyecto? Contáctanos y responderemos en 24-48 horas.",
       whatsapp: "Chatear por WhatsApp",
+      whatsappDesc: "Respuestas rápidas, conversación en tiempo real",
+      chatNow: "Chatear ahora",
       email: "Enviar un Email",
+      sendEmail: "Enviar email",
+      response: "Respondemos en 24-48 horas",
       form: {
         name: "Tu Nombre",
         email: "Tu Email",
@@ -418,7 +425,6 @@ export const translations = {
         emailPlaceholder: "juan@ejemplo.com",
         messagePlaceholder: "Cuéntanos sobre tu proyecto...",
       },
-      response: "Respondemos en 24-48 horas",
     },
     footer: {
       description: "Servicios profesionales de diseño y desarrollo web.",

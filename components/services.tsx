@@ -57,19 +57,30 @@ export function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative overflow-hidden rounded-2xl border border-border bg-card p-8 transition-all hover:border-foreground/20 hover:shadow-lg"
+              whileHover={{ y: -8, scale: 1.02 }}
+              className="group relative overflow-hidden rounded-2xl border border-border bg-card p-8 transition-all hover:border-accent/50 hover:shadow-lg hover:shadow-accent/10"
             >
-              <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-secondary text-foreground">
-                <service.icon className="h-7 w-7" />
+              <motion.div
+                className="absolute inset-0 bg-gradient-to-br from-accent/5 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                initial={false}
+              />
+              <div className="relative">
+                <motion.div
+                  whileHover={{ rotate: [0, -10, 10, -10, 0] }}
+                  transition={{ duration: 0.5 }}
+                  className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-accent/10 text-accent transition-colors group-hover:bg-accent/20"
+                >
+                  <service.icon className="h-7 w-7" />
+                </motion.div>
+                <h3 className="text-xl font-semibold text-foreground">{service.title}</h3>
+                <p className="mt-3 text-muted-foreground">{service.description}</p>
+                <Button asChild variant="link" className="mt-4 p-0 text-accent">
+                  <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer">
+                    {t.services.getQuote}
+                    <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </a>
+                </Button>
               </div>
-              <h3 className="text-xl font-semibold text-foreground">{service.title}</h3>
-              <p className="mt-3 text-muted-foreground">{service.description}</p>
-              <Button asChild variant="link" className="mt-4 p-0">
-                <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer">
-                  {t.services.getQuote}
-                  <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </a>
-              </Button>
             </motion.div>
           ))}
         </div>
