@@ -131,7 +131,7 @@ export const translations = {
       starter: {
         name: "Starter",
         description: "Perfect for small businesses and startups.",
-        price: "$150 USD",
+        price: "From $150 USD",
         features: [
           "Single page website",
           "Mobile responsive design",
@@ -143,7 +143,7 @@ export const translations = {
       pro: {
         name: "Pro",
         description: "For growing businesses that need more.",
-        price: "$350 USD",
+        price: "From $350 USD",
         features: [
           "Multi-page website (up to 10)",
           "Custom design & animations",
@@ -386,7 +386,7 @@ export const translations = {
       starter: {
         name: "Starter",
         description: "Perfecto para pequeños negocios y startups.",
-        price: "$150 USD",
+        price: "Desde $150 USD",
         features: [
           "Sitio web de una página",
           "Diseño responsive móvil",
@@ -398,7 +398,7 @@ export const translations = {
       pro: {
         name: "Pro",
         description: "Para negocios en crecimiento que necesitan más.",
-        price: "$350 USD",
+        price: "Desde $350 USD",
         features: [
           "Sitio multi-página (hasta 10)",
           "Diseño personalizado y animaciones",
