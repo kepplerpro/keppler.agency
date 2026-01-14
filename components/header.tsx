@@ -8,7 +8,7 @@ import { useLanguage } from "@/components/language-provider"
 import { Moon, Sun, Menu, X, MessageCircle } from "lucide-react"
 import Image from "next/image"
 
-const WHATSAPP_NUMBER = "<WHATSAPP_NUMBER>"
+const WHATSAPP_NUMBER = "5491121767678"
 
 export function Header() {
   const { theme, toggleTheme, mounted } = useTheme()

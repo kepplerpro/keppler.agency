@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { useLanguage } from "@/components/language-provider"
 import { MessageCircle, Mail, ArrowRight } from "lucide-react"
 
-const WHATSAPP_NUMBER = "<WHATSAPP_NUMBER>"
+const WHATSAPP_NUMBER = "5491121767678"
 
 export function Contact() {
   const { t } = useLanguage()

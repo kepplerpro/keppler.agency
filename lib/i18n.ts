@@ -18,7 +18,7 @@ export const translations = {
       badge: "by Allianzy Inc",
     },
     valueProps: {
-      title: "Why choose Keppler Pro?",
+      title: "Why choose Keppler?",
       subtitle: "We combine strategy, design, and technology to deliver exceptional results.",
       performance: {
         title: "Performance & SEO",
@@ -175,7 +175,7 @@ export const translations = {
       items: [
         {
           quote:
-            "Keppler Pro transformed our online presence. Our new website has increased leads by 200% in just 3 months.",
+            "Keppler transformed our online presence. Our new website has increased leads by 200% in just 3 months.",
           name: "Sarah Mitchell",
           role: "CEO, TechFlow Inc",
         },
@@ -244,7 +244,7 @@ export const translations = {
     },
     footer: {
       description: "Professional web design & development services.",
-      copyright: "© 2025 Keppler Pro by Allianzy Inc. All rights reserved.",
+      copyright: "© 2026 Keppler by Allianzy Inc. All rights reserved.",
       quickLinks: "Quick Links",
     },
   },
@@ -267,7 +267,7 @@ export const translations = {
       badge: "por Allianzy Inc",
     },
     valueProps: {
-      title: "¿Por qué elegir Keppler Pro?",
+      title: "¿Por qué elegir Keppler?",
       subtitle: "Combinamos estrategia, diseño y tecnología para entregar resultados excepcionales.",
       performance: {
         title: "Rendimiento y SEO",
@@ -430,7 +430,7 @@ export const translations = {
       items: [
         {
           quote:
-            "Keppler Pro transformó nuestra presencia online. Nuestro nuevo sitio ha aumentado los leads en un 200% en solo 3 meses.",
+            "Keppler transformó nuestra presencia online. Nuestro nuevo sitio ha aumentado los leads en un 200% en solo 3 meses.",
           name: "Sarah Mitchell",
           role: "CEO, TechFlow Inc",
         },
@@ -500,7 +500,7 @@ export const translations = {
     },
     footer: {
       description: "Servicios profesionales de diseño y desarrollo web.",
-      copyright: "© 2025 Keppler Pro por Allianzy Inc. Todos los derechos reservados.",
+      copyright: "© 2026 Keppler por Allianzy Inc. Todos los derechos reservados.",
       quickLinks: "Enlaces Rápidos",
     },
   },

@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/components/language-provider"
 import { Building2, Rocket, ShoppingCart, Wrench, ArrowRight } from "lucide-react"
 
-const WHATSAPP_NUMBER = "<WHATSAPP_NUMBER>"
+const WHATSAPP_NUMBER = "5491121767678"
 
 export function Services() {
   const { t } = useLanguage()

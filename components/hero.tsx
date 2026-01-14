@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/components/language-provider"
 import { MessageCircle, Mail, ArrowRight } from "lucide-react"
 
-const WHATSAPP_NUMBER = "<WHATSAPP_NUMBER>"
+const WHATSAPP_NUMBER = "5491121767678"
 
 export function Hero() {
   const { t } = useLanguage()
@@ -98,7 +98,7 @@ export function Hero() {
             </motion.div>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button asChild variant="outline" size="lg" className="w-full sm:w-auto bg-transparent">
-                <a href="mailto:hello@allianzy.com">
+                <a href="mailto:info@keppler.pro">
                   <Mail className="mr-2 h-5 w-5" />
                   {t.hero.ctaEmail}
                 </a>

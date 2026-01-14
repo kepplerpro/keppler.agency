@@ -14,7 +14,7 @@ interface LanguageContextType {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguageState] = useState<Language>("en")
+  const [language, setLanguageState] = useState<Language>("es")
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
@@ -24,8 +24,8 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     if (stored && (stored === "en" || stored === "es")) {
       setLanguageState(stored)
     } else {
-      const browserLang = navigator.language || (navigator as any).userLanguage || "en"
-      const detectedLang: Language = browserLang.toLowerCase().startsWith("es") ? "es" : "en"
+      const browserLang = navigator.language || (navigator as any).userLanguage || "es"
+      const detectedLang: Language = browserLang.toLowerCase().startsWith("en") ? "en" : "es"
       setLanguageState(detectedLang)
       localStorage.setItem("keppler-lang", detectedLang)
     }
