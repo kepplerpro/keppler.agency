@@ -38,35 +38,48 @@ export const translations = {
         description: "Optional maintenance packages to keep your site secure, updated, and performing at its best.",
       },
     },
-    services: {
-        title: "Our Services",
-        subtitle: "Comprehensive web solutions tailored to your business needs.",
-        socialMedia: {
-          title: "Social Media Management",
-          description: "Professional, coherent, and strategic presence on Meta (Instagram and Facebook), focusing on organic growth and community management.",
-        },
-        website: {
-          title: "Professional Website",
-          description: "Clear, fast, and optimized websites designed to communicate and convert.",
-        },
-        advertising: {
-          title: "Digital Advertising",
-          description: "Paid campaigns on Meta Ads, Google Ads, LinkedIn Ads, and Mercado Libre Ads, focused on visibility, reach, and measurable results.",
-        },
-        branding: {
-        title: "Visual Branding",
-        description: "Solid and consistent visual identity for brands looking to differentiate themselves.",
-      },
-      performance: {
-        title: "Software Performance Optimization",
-        description: "Analysis, profiling, and performance improvement of existing systems and applications to achieve greater speed, efficiency, and scalability.",
-      },
-      consulting: {
-        title: "Digital Consulting",
-        description: "Strategic advice on digital presence, technology, and processes, focused on defining priorities, optimizing resources, and making better decisions.",
-      },
-      getQuote: "Get a Quote",
-      },
+ services: {
+  title: "Our Services",
+  subtitle: "Digital solutions designed to strengthen and grow your business.",
+
+  socialMedia: {
+    title: "Social Media Management",
+    description:
+      "Professional, consistent, and strategic presence on Meta (Instagram and Facebook), focused on organic growth and community management."
+  },
+
+  advertising: {
+    title: "Digital Advertising",
+    description:
+      "Paid campaigns on Meta Ads, Google Ads, LinkedIn Ads, and Mercado Libre Ads, focused on visibility, reach, and measurable results."
+  },
+
+  website: {
+    title: "Professional Website",
+    description:
+      "Design and development of clear, fast, and conversion-optimized websites. Includes corporate websites, landing pages, and e-commerce solutions."
+  },
+
+  branding: {
+    title: "Visual Branding",
+    description:
+      "Strong and consistent visual identity for brands looking to stand out and professionalize their image."
+  },
+
+  performance: {
+    title: "Social Media Design",
+    description:
+      "Visual design for social media profiles and content, ensuring consistency, brand identity, and higher engagement."
+  },
+
+  consulting: {
+    title: "Digital Consulting",
+    description:
+      "Strategic guidance for brands and individuals who need clarity on how to start or improve their digital presence, defining priorities and next steps without the need to hire execution services."
+  },
+
+getQuote: "Request a Quote",
+},
     work: {
       title: "Our Work",
       subtitle: "A selection of projects we're proud of.",
@@ -277,34 +290,47 @@ export const translations = {
       },
     },
     services: {
-      title: "Nuestros Servicios",
-      subtitle: "Soluciones web completas adaptadas a las necesidades de tu negocio.",
-      socialMedia: {
-        title: "Gestión de Redes Sociales",
-        description: "Presencia profesional, coherente y estratégica en Meta (Instagram y Facebook), con foco en crecimiento orgánico y gestión de comunidad.",
-      },
-      website: {
-        title: "Sitio Web Profesional",
-        description: "Diseño y desarrollo de sitios web claros, rápidos y optimizados para comunicar y convertir. Incluye corporate websites, landing pages y e-commerce.",
-      },
-      advertising: {
-        title: "Publicidad Digital",
-        description: "Campañas pagas en Meta Ads, Google Ads, LinkedIn Ads y Mercado Libre Ads, orientadas a visibilidad, alcance y resultados medibles.",
-      },
-      branding: {
-        title: "Branding Visual",
-        description: "Identidad visual sólida y consistente para marcas que buscan diferenciarse y profesionalizar su imagen.",
-      },
-      performance: {
-        title: "Optimización de Performance de Software",
-        description: "Análisis, profiling y mejora del rendimiento de sistemas y aplicaciones existentes para lograr mayor velocidad, eficiencia y escalabilidad.",
-      },
-      consulting: {
-        title: "Consultoría Digital",
-        description: "Asesoramiento estratégico en presencia digital, tecnología y procesos, orientado a definir prioridades, optimizar recursos y tomar mejores decisiones.",
-      },
-      getQuote: "Pedir Cotización",
-    },
+  title: "Nuestros Servicios",
+  subtitle: "Soluciones digitales pensadas para fortalecer y hacer crecer tu negocio.",
+
+  socialMedia: {
+    title: "Gestión de Redes Sociales",
+    description:
+      "Presencia profesional, coherente y estratégica en Meta (Instagram y Facebook), con foco en crecimiento orgánico y gestión de comunidad."
+  },
+
+  advertising: {
+    title: "Publicidad Digital",
+    description:
+      "Campañas pagas en Meta Ads, Google Ads, LinkedIn Ads y Mercado Libre Ads, orientadas a visibilidad, alcance y resultados medibles."
+  },
+
+  website: {
+    title: "Sitio Web Profesional",
+    description:
+      "Diseño y desarrollo de sitios web claros, rápidos y optimizados para comunicar y convertir. Incluye sitios corporativos, landing pages y e-commerce."
+  },
+
+  branding: {
+    title: "Branding Visual",
+    description:
+      "Identidad visual sólida y consistente para marcas que buscan diferenciarse y profesionalizar su imagen."
+  },
+
+  performance: {
+    title: "Diseño para Redes Sociales",
+    description:
+      "Diseño visual para perfiles y contenidos en redes sociales, asegurando coherencia de marca, identidad visual y mayor engagement."
+  },
+
+  consulting: {
+    title: "Consultoría Digital",
+    description:
+      "Orientación estratégica para marcas y personas que necesitan claridad sobre cómo empezar o cómo mejorar su presencia digital, definiendo prioridades y próximos pasos sin necesidad de contratar un servicio de ejecución."
+  },
+
+  getQuote: "Contactar"
+},
     work: {
       title: "Nuestro Trabajo",
       subtitle: "Una selección de proyectos de los que estamos orgullosos.",
