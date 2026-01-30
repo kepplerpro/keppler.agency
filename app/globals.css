@@ -78,8 +78,8 @@
 
 @theme inline {
   /* Changed font from Inter to Urbanist */
-  --font-sans: "Urbanist", "Urbanist Fallback";
-  --font-mono: "Geist Mono", "Geist Mono Fallback";
+  --font-sans: var(--font-sans), "Urbanist", sans-serif;
+  --font-mono: monospace;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);

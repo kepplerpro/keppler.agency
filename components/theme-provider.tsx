@@ -23,10 +23,12 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     if (stored === "light" || stored === "dark") {
       setTheme(stored)
       document.documentElement.classList.toggle("dark", stored === "dark")
-    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark")
-      document.documentElement.classList.add("dark")
     }
+    // Default to light mode, ignoring system preference
+    // else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    //   setTheme("dark")
+    //   document.documentElement.classList.add("dark")
+    // }
   }, [])
 
   const toggleTheme = () => {

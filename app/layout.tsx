@@ -1,13 +1,15 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Urbanist, Geist_Mono } from "next/font/google"
+import { Urbanist } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { LanguageProvider } from "@/components/language-provider"
 
-const _urbanist = Urbanist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
+const urbanist = Urbanist({
+  subsets: ["latin"],
+  variable: "--font-sans",
+})
 
 export const metadata: Metadata = {
   title: "Keppler Pro | Web Design & Development Services",
@@ -27,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`font-sans antialiased ${_urbanist.className}`}>
+      <body className={`font-sans antialiased ${urbanist.variable}`}>
         <ThemeProvider>
           <LanguageProvider>{children}</LanguageProvider>
         </ThemeProvider>

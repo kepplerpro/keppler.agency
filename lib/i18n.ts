@@ -10,9 +10,9 @@ export const translations = {
       talkWhatsApp: "Talk on WhatsApp",
     },
     hero: {
-      title: "Build websites that convert visitors into customers",
+      title: "We create digital solutions that help your brand grow",
       subtitle:
-        "Fast, modern, and conversion-oriented web design & development. We create digital experiences that drive real business results.",
+        "Strategy, design, and execution focused on turning digital presence into real results.",
       ctaWhatsApp: "Talk on WhatsApp",
       ctaEmail: "Send an Email",
       badge: "Keppler Agency",
@@ -259,9 +259,9 @@ getQuote: "Request a Quote",
       talkWhatsApp: "Hablar por WhatsApp",
     },
     hero: {
-      title: "Creamos sitios web que convierten visitantes en clientes",
+      title: "Creamos soluciones digitales que hacen crecer tu marca",
       subtitle:
-        "Diseño y desarrollo web rápido, moderno y orientado a la conversión. Creamos experiencias digitales que generan resultados reales.",
+        "Estrategia, redes sociales, publicidad y diseño web orientados a resultados reales.",
       ctaWhatsApp: "Hablar por WhatsApp",
       ctaEmail: "Enviar un Email",
       badge: "Keppler Agency",
