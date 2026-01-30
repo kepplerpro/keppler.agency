@@ -15,7 +15,7 @@ export const translations = {
         "Fast, modern, and conversion-oriented web design & development. We create digital experiences that drive real business results.",
       ctaWhatsApp: "Talk on WhatsApp",
       ctaEmail: "Send an Email",
-      badge: "by Allianzy Inc",
+      badge: "Keppler Agency",
     },
     valueProps: {
       title: "Why choose Keppler?",
@@ -39,26 +39,34 @@ export const translations = {
       },
     },
     services: {
-      title: "Our Services",
-      subtitle: "Comprehensive web solutions tailored to your business needs.",
-      corporate: {
-        title: "Corporate Websites",
-        description: "Professional websites that establish credibility and communicate your brand story effectively.",
+        title: "Our Services",
+        subtitle: "Comprehensive web solutions tailored to your business needs.",
+        socialMedia: {
+          title: "Social Media Management",
+          description: "Professional, coherent, and strategic presence on Meta (Instagram and Facebook), focusing on organic growth and community management.",
+        },
+        website: {
+          title: "Professional Website",
+          description: "Clear, fast, and optimized websites designed to communicate and convert.",
+        },
+        advertising: {
+          title: "Digital Advertising",
+          description: "Paid campaigns on Meta Ads, Google Ads, LinkedIn Ads, and Mercado Libre Ads, focused on visibility, reach, and measurable results.",
+        },
+        branding: {
+        title: "Visual Branding",
+        description: "Solid and consistent visual identity for brands looking to differentiate themselves.",
       },
-      landing: {
-        title: "Landing Pages",
-        description: "High-converting landing pages designed to capture leads and drive specific actions.",
+      performance: {
+        title: "Software Performance Optimization",
+        description: "Analysis, profiling, and performance improvement of existing systems and applications to achieve greater speed, efficiency, and scalability.",
       },
-      ecommerce: {
-        title: "E-commerce",
-        description: "Online stores that sell. Seamless shopping experiences that turn browsers into buyers.",
-      },
-      maintenance: {
-        title: "Maintenance",
-        description: "Keep your website secure, fast, and up-to-date with our ongoing maintenance services.",
+      consulting: {
+        title: "Digital Consulting",
+        description: "Strategic advice on digital presence, technology, and processes, focused on defining priorities, optimizing resources, and making better decisions.",
       },
       getQuote: "Get a Quote",
-    },
+      },
     work: {
       title: "Our Work",
       subtitle: "A selection of projects we're proud of.",
@@ -70,20 +78,6 @@ export const translations = {
       },
       projects: [
         {
-          name: "GG Insurances",
-          type: "corporate",
-          result: "Insurance Solutions",
-          url: "https://www.gginsurances.com",
-          image: "/insurance-company-corporate-website-modern.jpg",
-        },
-        {
-          name: "Hotel Safari Club",
-          type: "corporate",
-          result: "Hospitality",
-          url: "https://hotelsafariclub.com",
-          image: "/luxury-hotel-resort-website-tropical.jpg",
-        },
-        {
           name: "Pronta SRL",
           type: "corporate",
           result: "Business Services",
@@ -91,18 +85,11 @@ export const translations = {
           image: "/corporate-business-services-website-professional.jpg",
         },
         {
-          name: "Street Arquitectura",
-          type: "corporate",
-          result: "Architecture Studio",
-          url: "https://www.streetarquitectura.com.ar",
-          image: "/architecture-studio-website-modern-minimalist.jpg",
-        },
-        {
-          name: "Iconos SAS",
-          type: "corporate",
-          result: "Graphic Design",
-          url: "https://iconosgrafica.com.ar",
-          image: "/graphic-design-agency-website-creative.jpg",
+          name: "Pronta Invitaciones",
+          type: "landing",
+          result: "Digital Invitations",
+          url: "https://sebasthian.prontainvitaciones.me",
+          image: "/corporate-business-services-website-professional.jpg",
         },
         {
           name: "Pronta Invitaciones",
@@ -244,7 +231,7 @@ export const translations = {
     },
     footer: {
       description: "Professional web design & development services.",
-      copyright: "© 2026 Keppler by Allianzy Inc. All rights reserved.",
+      copyright: "© 2026 Keppler Agency. All rights reserved.",
       quickLinks: "Quick Links",
     },
   },
@@ -264,7 +251,7 @@ export const translations = {
         "Diseño y desarrollo web rápido, moderno y orientado a la conversión. Creamos experiencias digitales que generan resultados reales.",
       ctaWhatsApp: "Hablar por WhatsApp",
       ctaEmail: "Enviar un Email",
-      badge: "por Allianzy Inc",
+      badge: "Keppler Agency",
     },
     valueProps: {
       title: "¿Por qué elegir Keppler?",
@@ -292,25 +279,29 @@ export const translations = {
     services: {
       title: "Nuestros Servicios",
       subtitle: "Soluciones web completas adaptadas a las necesidades de tu negocio.",
-      corporate: {
-        title: "Sitios Corporativos",
-        description:
-          "Sitios web profesionales que establecen credibilidad y comunican la historia de tu marca efectivamente.",
+      socialMedia: {
+        title: "Gestión de Redes Sociales",
+        description: "Presencia profesional, coherente y estratégica en Meta (Instagram y Facebook), con foco en crecimiento orgánico y gestión de comunidad.",
       },
-      landing: {
-        title: "Landing Pages",
-        description:
-          "Páginas de aterrizaje de alta conversión diseñadas para capturar leads y generar acciones específicas.",
+      website: {
+        title: "Sitio Web Profesional",
+        description: "Diseño y desarrollo de sitios web claros, rápidos y optimizados para comunicar y convertir. Incluye corporate websites, landing pages y e-commerce.",
       },
-      ecommerce: {
-        title: "E-commerce",
-        description:
-          "Tiendas online que venden. Experiencias de compra sin fricciones que convierten visitantes en compradores.",
+      advertising: {
+        title: "Publicidad Digital",
+        description: "Campañas pagas en Meta Ads, Google Ads, LinkedIn Ads y Mercado Libre Ads, orientadas a visibilidad, alcance y resultados medibles.",
       },
-      maintenance: {
-        title: "Mantenimiento",
-        description:
-          "Mantén tu sitio web seguro, rápido y actualizado con nuestros servicios de mantenimiento continuo.",
+      branding: {
+        title: "Branding Visual",
+        description: "Identidad visual sólida y consistente para marcas que buscan diferenciarse y profesionalizar su imagen.",
+      },
+      performance: {
+        title: "Optimización de Performance de Software",
+        description: "Análisis, profiling y mejora del rendimiento de sistemas y aplicaciones existentes para lograr mayor velocidad, eficiencia y escalabilidad.",
+      },
+      consulting: {
+        title: "Consultoría Digital",
+        description: "Asesoramiento estratégico en presencia digital, tecnología y procesos, orientado a definir prioridades, optimizar recursos y tomar mejores decisiones.",
       },
       getQuote: "Pedir Cotización",
     },
@@ -325,20 +316,6 @@ export const translations = {
       },
       projects: [
         {
-          name: "GG Insurances",
-          type: "corporate",
-          result: "Soluciones de Seguros",
-          url: "https://www.gginsurances.com",
-          image: "/insurance-company-corporate-website-modern.jpg",
-        },
-        {
-          name: "Hotel Safari Club",
-          type: "corporate",
-          result: "Hospitalidad",
-          url: "https://hotelsafariclub.com",
-          image: "/luxury-hotel-resort-website-tropical.jpg",
-        },
-        {
           name: "Pronta SRL",
           type: "corporate",
           result: "Servicios Empresariales",
@@ -346,18 +323,11 @@ export const translations = {
           image: "/corporate-business-services-website-professional.jpg",
         },
         {
-          name: "Street Arquitectura",
-          type: "corporate",
-          result: "Estudio de Arquitectura",
-          url: "https://www.streetarquitectura.com.ar",
-          image: "/architecture-studio-website-modern-minimalist.jpg",
-        },
-        {
-          name: "Iconos SAS",
-          type: "corporate",
-          result: "Diseño Gráfico",
-          url: "https://iconosgrafica.com.ar",
-          image: "/graphic-design-agency-website-creative.jpg",
+          name: "Pronta Invitaciones",
+          type: "landing",
+          result: "Invitaciones Digitales",
+          url: "https://sebasthian.prontainvitaciones.me",
+          image: "/corporate-business-services-website-professional.jpg",
         },
         {
           name: "Pronta Invitaciones",
@@ -500,11 +470,12 @@ export const translations = {
     },
     footer: {
       description: "Servicios profesionales de diseño y desarrollo web.",
-      copyright: "© 2026 Keppler por Allianzy Inc. Todos los derechos reservados.",
+      copyright: "© 2026 Keppler Agency. Todos los derechos reservados.",
       quickLinks: "Enlaces Rápidos",
     },
   },
-} as const
+}
 
 export type Language = keyof typeof translations
 export type Translations = typeof translations.en
+export type ServiceKeys = keyof typeof translations.en.services

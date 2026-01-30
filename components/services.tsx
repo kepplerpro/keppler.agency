@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/components/language-provider"
-import { Building2, Rocket, ShoppingCart, Wrench, ArrowRight } from "lucide-react"
+import { Share2, Laptop, Megaphone, Palette, ArrowRight, Gauge, Brain } from "lucide-react"
 
 const WHATSAPP_NUMBER = "5491121767678"
 
@@ -12,24 +12,34 @@ export function Services() {
 
   const services = [
     {
-      icon: Building2,
-      title: t.services.corporate.title,
-      description: t.services.corporate.description,
+      icon: Share2,
+      title: t.services.socialMedia.title,
+      description: t.services.socialMedia.description,
     },
     {
-      icon: Rocket,
-      title: t.services.landing.title,
-      description: t.services.landing.description,
+      icon: Laptop,
+      title: t.services.website.title,
+      description: t.services.website.description,
     },
     {
-      icon: ShoppingCart,
-      title: t.services.ecommerce.title,
-      description: t.services.ecommerce.description,
+      icon: Megaphone,
+      title: t.services.advertising.title,
+      description: t.services.advertising.description,
     },
     {
-      icon: Wrench,
-      title: t.services.maintenance.title,
-      description: t.services.maintenance.description,
+      icon: Palette,
+      title: t.services.branding.title,
+      description: t.services.branding.description,
+    },
+    {
+      icon: Gauge,
+      title: t.services.performance.title,
+      description: t.services.performance.description,
+    },
+    {
+      icon: Brain,
+      title: t.services.consulting.title,
+      description: t.services.consulting.description,
     },
   ]
 

@@ -88,7 +88,7 @@ export function Footer() {
               )}
             </a>
             <p className="mt-4 max-w-xs text-sm text-muted-foreground">{t.footer.description}</p>
-            <p className="mt-2 text-xs text-muted-foreground">by Allianzy Inc</p>
+      
             <div className="mt-4 flex items-center gap-3">
               {socialLinks.map((social) => (
                 <a
